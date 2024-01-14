@@ -1,13 +1,16 @@
 body {
-     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../images/QUOTE1.jpg") no-repeat;
-    background-color: rgb(45, 44, 44);
-    color: aliceblue;
+        /*background-image: url("./img1.jpg");*/
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("./img4.jpg") no-repeat;
+        background-size: cover;
+        /*min-height: calc(100vh - 30px);
+        display: flex;
+        flex-direction: column;*/
+       }
     
-}
 .container
 {
-    background-color: #1c1b1d;
+    /*background-color: #1c1b1d;*/
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -65,3 +68,4 @@ body {
     height: var(--h);
     border-radius: 80px;
 }
+
